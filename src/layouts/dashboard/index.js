@@ -143,7 +143,7 @@ function Dashboard() {
               </Card>
             </Grid>
             <Grid item xs={12} lg={6} xl={5}>
-              <Card style="height:100%;">
+              <Card style={"height:100%;"}>
                 <VuiTypography variant="lg" color="white" fontWeight="bold" mb="5px">
                   Transaction History
                 </VuiTypography>
