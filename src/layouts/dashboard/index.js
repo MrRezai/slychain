@@ -144,6 +144,9 @@ function Dashboard() {
             </Grid>
             <Grid item xs={12} lg={6} xl={5}>
               <Card>
+                <VuiTypography variant="lg" color="white" fontWeight="bold" mb="5px">
+                  Transaction History
+                </VuiTypography>
                 <VuiBox>
                   <VuiBox
                     mb="24px"
@@ -162,17 +165,14 @@ function Dashboard() {
                       barChartOptions={barChartOptionsDashboard}
                     />
                   </VuiBox>
-                  <VuiTypography variant="lg" color="white" fontWeight="bold" mb="5px">
-                    Active Users
-                  </VuiTypography>
-                  <VuiBox display="flex" alignItems="center" mb="40px">
+                  {/* <VuiBox display="flex" alignItems="center" mb="40px">
                     <VuiTypography variant="button" color="success" fontWeight="bold">
                       (+23){" "}
                       <VuiTypography variant="button" color="text" fontWeight="regular">
                         than last week
                       </VuiTypography>
                     </VuiTypography>
-                  </VuiBox>
+                  </VuiBox> */}
                   <Grid container spacing="50px">
                     <Grid item xs={6} md={3} lg={3}>
                       <Stack
