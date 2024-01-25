@@ -142,8 +142,8 @@ function Dashboard() {
                 </VuiBox>
               </Card>
             </Grid>
-            <Grid item xs={12} lg={6} xl={5} height="100%">
-              <Card>
+            <Grid item xs={12} lg={6} xl={5}>
+              <Card height="100%">
                 <VuiTypography variant="lg" color="white" fontWeight="bold" mb="5px">
                   Transaction History
                 </VuiTypography>
